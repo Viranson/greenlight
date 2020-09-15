@@ -2,20 +2,14 @@
 #
 # Copyright (c) 2018 BigBlueButton Inc. and by respective authors (see below).
 #
-# This program is free software; you can redistribute it and/or modify it under the
-# terms of the GNU Lesser General Public License as published by the Free Software
-# Foundation; either version 3.0 of the License, or (at your option) any later
-# version.
+# This program is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as 
+# published by the Free Software Foundation; either version 3.0 of the License, or (at your option) any later version.
 #
-# BigBlueButton is distributed in the hope that it will be useful, but WITHOUT ANY
-# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-# PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
+# BigBlueButton is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of 
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
 #
-# You should have received a copy of the GNU Lesser General Public License along
-# with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
-
-# Locale.
-
+# You should have received a copy of the GNU Lesser General Public License along with BigBlueButton; if not, see 
+# <http://www.gnu.org/licenses/>. Locale.
 fr:
   activerecord:
     attributes:
@@ -64,7 +58,8 @@ fr:
         title: Supprimer le mode d'authentification
         button: Supprimer Auth
       color:
-        info: "Modifier la couleur \"Base\" modifiera également les couleurs \"Clair\" et \"Sombre\". Par la suite, les couleurs \"Clair\" et \"Sombre\" peuvent être modifiées individuellement."
+        info: "Modifier la couleur \"Base\" modifiera également les couleurs \"Clair\" et \"Sombre\". Par la suite, les couleurs \"Clair\" et 
+\"Sombre\" peuvent être modifiées individuellement."
         title: Couleur principale
         regular: Base
         lighten: Plus clair
@@ -90,10 +85,12 @@ fr:
           invite: Invitation
           open: Inscription ouverte
       rooms:
-        info: Limiter le nombre de salles maximum qu'un utilisateur peut avoir (Salle d'Accueil incluse). Ce réglage n'affecte pas les administrateurs.
+        info: Limiter le nombre de salles maximum qu'un utilisateur peut avoir (Salle d'Accueil incluse). Ce réglage n'affecte pas les 
+administrateurs.
         title: Nombre de salles par utilisateur
       shared_access:
-        info: "Désactiver : supprimera de la liste déroulante des options du Salon, le bouton de partage, empêchant ainsi les utilisateurs de partager des Salons"
+        info: "Désactiver : supprimera de la liste déroulante des options du Salon, le bouton de partage, empêchant ainsi les utilisateurs de 
+partager des Salons"
         title: Autorise les utilisateurs à partager le Salon
       subtitle: Personnaliser CERCO Meet
       title: Paramètres du site
@@ -105,13 +102,16 @@ fr:
       delete_fail: Impossible de supprimer l'utilisateur
       demoted: L'utilisateur a été rétrogradé
       invite: "Invitation envoyée à %{email}"
-      invite_email_verification: Les emails doivent être activés pour utiliser cette méthode. Veuillez contacter votre administrateur système.
-      merge_fail: Un problème est survenu lors de la fusion des comptes utilisateurs. Veuillez vérifier les utilisateurs sélectionnés et réessayer 
+      invite_email_verification: Les emails doivent être activés pour utiliser cette méthode. Veuillez contacter votre administrateur 
+système.
+      merge_fail: Un problème est survenu lors de la fusion des comptes utilisateurs. Veuillez vérifier les utilisateurs sélectionnés et 
+réessayer
       merge_success: Les comptes utilisateurs ont bien été fusionnés
       perm_deleted: L'utilisateur a été définitivement supprimé
       promoted: L'utilisateur a bien été promu.
       registration_method_updated: Méthode d'inscription mise à jour.
-      reset_password: "Un email a été envoyé à l'utilisateur afin de réinitialiser son mot de passe. (S'il ne l'a pas reçu, dites-lui de vérifier son dossier \"spam\")"
+      reset_password: "Un email a été envoyé à l'utilisateur afin de réinitialiser son mot de passe. (S'il ne l'a pas reçu, dites-lui de 
+vérifier son dossier \"spam\")"
       restored: L'utilisateur a bien été restauré
       room_configuration: Configuration du salon modifiée avec succès
       settings: Les paramètres du site ont bien été modifiés
@@ -136,20 +136,23 @@ fr:
       edit_site_settings: Permet aux utilisateurs ayant ce rôle de modifier les paramètres du site
       edit_roles: Permet aux utilisateurs ayant ce rôle de modifier les autres rôles
       manage_users: Permet aux utilisateurs ayant ce rôle de gérer les utilisateurs
-      invalid_assignment: Un problème a été rencontré lors de l'attribution du rôle à l'utilisateur. Veuillez vérifier les valeurs entrées et réessayer. 
+      invalid_assignment: Un problème a été rencontré lors de l'attribution du rôle à l'utilisateur. Veuillez vérifier les valeurs entrées et 
+réessayer.
       colour:
         title: Couleur du rôle
         info: Définir la couleur qui sera associée au rôle
     room_configuration:
       title: Configuration du salon
       mute:
-        info: Automatiquement mettre en sourdine les utilisateurs lorsqu'ils rejoignent la réunion CERCO Meet
+        info: Automatiquement mettre en sourdine les utilisateurs lorsqu'ils rejoignent la réunion BigBlueButton
       require_moderator:
-        info: "Averti le modérateur d'une conférence CERCO Meet lorsqu'un utilisateur essaye de se connecter. Si l'utilisateur est approuvé, il pourra joindre la conférence."
+        info: "Averti le modérateur d'une conférence BigBlueButton lorsqu'un utilisateur essaye de se connecter. Si l'utilisateur est 
+approuvé, il pourra joindre la conférence."
       allow_any:
-        info: "Permet à n'importe quel utilisateur de démarrer la conférence à n'importe quel moment. Par défaut, seul le propriétaire peut démarrer la conférence."
+        info: "Permet à n'importe quel utilisateur de démarrer la conférence à n'importe quel moment. Par défaut, seul le propriétaire peut 
+démarrer la conférence."
       all_moderator:
-        info: Donne à tous les utilisateurs les droits de modérateur dans CERCO Meet lors de la connexion à une conférence.
+        info: Donne à tous les utilisateurs les droits de modérateur dans BigBlueButton lors de la connexion à une conférence.
       options:
         disabled: Désactivé
         enabled: Toujours activé
@@ -192,7 +195,7 @@ fr:
         username: Nom d'utilisateur
       title: Gérer les utilisateurs
   add_to_google_calendar: "Ajouter au calendrier Google"
-  bigbluebutton: CERCO Meet
+  bigbluebutton: BigBlueButton
   bigbluebutton_exception: "Oups, une erreur s'est produite lors du démarrage de la réunion !"
   cancel: Annuler
   cookies:
@@ -202,7 +205,8 @@ fr:
   copy: Copier
   date:
     month_names: [~, Janvier, Février, Mars, Avril, Mai, Juin, Juillet, Août, Septembre, Octobre, Novembre, Décembre]
-  default_admin: "Vous utilisez toujours le mot de passe par défaut pour ce compte. Veuillez cliquer <a href=\"%{edit_link}\">ici</a> pour le modifier"
+  default_admin: "Vous utilisez toujours le mot de passe par défaut pour ce compte. Veuillez cliquer <a href=\"%{edit_link}\">ici</a> pour le 
+modifier"
   delete: Supprimer
   delivery_error: Une erreur s'est produite lors de la livraison du courrier électronique. Veuillez contacter un administrateur !
   docs: Documentation
@@ -225,9 +229,10 @@ fr:
       contact_admin: "Si vous n’êtes pas un administrateur, veuillez en contacter un."
       continue: Je veux rester sur la 1.0.
       notice: >
-        Greenlight a rencontré une erreur de migration de base de données.<br> C'est peut-être parce que vous n'avez pas mis à jour Greenlight 2.0.
+        CERCO Meet a rencontré une erreur de migration de base de données.<br> C'est peut-être parce que vous n'avez pas mis à jour CERCO 
+Meet 2.0.
       upgrade: Montrez-moi comment passer à la version 2.0 !
-      version: "Nous avons publié une nouvelle version de Greenlight, mais votre base de données n'est pas compatible."
+      version: "Nous avons publié une nouvelle version de CERCO Meet, mais votre base de données n'est pas compatible."
     messages:
       blank: ne peut pas être vide
       too_short: est trop court
@@ -262,7 +267,7 @@ fr:
   footer:
     legal: Légal
     privpolicy: Politique de confidentialité
-    powered_by: "Alimenté par CERCO."
+    powered_by: "Alimenté par %{href}."
   forgot_password:
     subtitle: Mot de passe oublié
     email: Email
@@ -279,7 +284,8 @@ fr:
       signout: Déconnexion
   home_room: Salle d’Accueil
   info_update_success: Informations mises à jour avec succès.
-  invalid_credentials: "Les informations d'identification que vous avez indiquées sont erronées. Veuillez réessayer ou cliquez sur « Mot de passe oublié ? » pour réinitialiser votre mot de passe."
+  invalid_credentials: "Les informations d'identification que vous avez indiquées sont erronées. Veuillez réessayer ou cliquez sur « Mot de 
+passe oublié ? » pour réinitialiser votre mot de passe."
   invalid_login_method: La connexion a échoué en raison d'une incompatibilité de compte. Vous devez vous connecter avec omniauth.
   invite_message: "Pour inviter quelqu'un à la réunion, envoyez-lui ce lien :"
   javascript:
@@ -287,18 +293,21 @@ fr:
       mailer:
         subject: 'vous a invité à visionner un enregistrement.'
         body: 'Pour visionner l''enregistrement, suivez le lien ci-dessous :'
-        autogenerated: 'Cet e-mail est généré automatiquement par CERCO Meet.'
-        footer: 'CERCO Meet est la plateforme de visioconférence du Groupe CERCO.'
+        autogenerated: 'Cet e-mail est généré automatiquement par BigBlueButton.'
+        footer: 'BigBlueButton est un système Open Source de Web Conférence. Pour plus d''informations sur BigBlueButton, voir 
+https://bigbluebutton.org/.'
     search:
       start: Commencer la recherche...
   landing:
-    about: "CERCO Meet est une plateforme de visioconférence du Groupe CERCO. Vous pouvez créer vos propres salles pour héberger des sessions ou rejoindre d'autres utilisateurs via un lien court et pratique. "
+    about: "CERCO Meet est une plateforme de visioconférence du Groupe CERCO. Vous pouvez créer vos propres salles pour héberger des sessions 
+ou rejoindre d'autres utilisateurs via un lien court et pratique. "
     welcome: Bienvenue sur CERCO Meet.
 #    video: Regardez notre tutoriel sur l'utilisation de CERCO Meet
     upgrade: Montrez-moi comment passer à la version 2.0 !
-    version: "Nous avons publié une nouvelle version de Greenlight, mais votre base de données n'est pas compatible."
+    version: "Nous avons publié une nouvelle version de CERCO Meet, mais votre base de données n'est pas compatible."
   language_default: Par défaut (langue du navigateur)
-  ldap_error: Impossible de se connecter au serveur LDAP. Veuillez vérifier votre configuration LDAP dans le fichier env et vous assurer que votre serveur est en cours d'exécution.
+  ldap_error: Impossible de se connecter au serveur LDAP. Veuillez vérifier votre configuration LDAP dans le fichier env et vous assurer que 
+votre serveur est en cours d'exécution.
   login: Connexion
   login_title: Connexion avec votre compte
   mailer:
@@ -309,7 +318,8 @@ fr:
         signin_link: Connexion
         signup:
           info: Un nouvel utilisateur s'est inscrit pour utiliser CERCO Meet.
-          more-info: "Pour autoriser cet utilisateur à accéder à CERCO Meet, vous devez approuver son compte depuis la page \"Organisation\"."
+          more-info: "Pour autoriser cet utilisateur à accéder à CERCO Meet, vous devez approuver son compte depuis la page 
+\"Organisation\"."
           admins_link: Visitez la page "Organisation"
           subject: Inscription d'un nouvel utilisateur CERCO Meet
           username: "L'utilisateur s'est inscrit avec le nom %{name} et l'adresse email %{email}. "
@@ -329,12 +339,13 @@ fr:
           admins_link: Visitez la page "Organisation"
           subject: Inscription d'un nouvel utilisateur CERCO Meet
           username: "L'utilisateur s'est inscrit avec le nom %{name} et l'adresse email %{email}."
-        subject: Invitation à joindre CERCO Meet
+        subject: Invitation à joindre BigBlueButton
         username: "Votre nom d'utilisateur est %{email}."
       password_reset:
         title: 'Réinitialiser le mot de passe'
         welcome: "Une réinitialisation du mot de passe a été demandée pour l'e-mail <b>%{email}</b>"
-        message: 'Si vous avez demandé cette réinitialisation, veuillez cliquer sur le lien ci-dessous pour réinitialiser votre mot de passe :'
+        message: 'Si vous avez demandé cette réinitialisation, veuillez cliquer sur le lien ci-dessous pour réinitialiser votre mot de passe 
+:'
         reset_link: Réinitialiser le mot de passe
         expire: Ce lien expirera dans deux heures.
         ignore: Vous pouvez ignorer cette demande si vous n'êtes pas à l'origine de celle-ci.
@@ -345,7 +356,8 @@ fr:
         subtitle: "%{role} droits attribués"
       verify_email:
         welcome: "Bienvenue sur votre espace personnel, %{name}!"
-        success: "Profitez pleinement de %{bigbluebutton}, vous pouvez créer vos propres salons pour héberger des sessions et collaborer avec d'autres personnes."
+        success: "Profitez pleinement de %{bigbluebutton}, vous pouvez créer vos propres salons pour héberger des sessions et collaborer avec 
+d'autres personnes."
         username: "Votre nom d'utilisateur est %{email}."
         verify: "Pour vérifier votre compte, cliquez simplement sur le bouton ci-dessous."
         verify_text: 'Pour vérifier votre compte, suivez ce lien : %{url}'
@@ -376,7 +388,7 @@ fr:
       delete: "Je confirme, supprimez ce compte."
       keep: "En fait, je vais le garder."
       delete_warning: Cela désactivera le compte de l'utilisateur. Tous les utilisateurs désactivés se trouvent sous l'onglet supprimé.
-      warning: Cette décision est définitive. Vous ne pourrez <b>pas</b>  récupérer les données associées.
+      warning: Cette décision est définitive. Vous ne pourrez <b>pas</b> récupérer les données associées.
     delete_room:
       confirm: "Êtes-vous sûr de vouloir supprimer %{room}?"
       delete: "Je suis sûr, supprimer cette salle."
@@ -421,11 +433,13 @@ fr:
       title: Fusionner les comptes d'utilisateurs
       to: Compte principal
       save: Fusionner
-      footer: "Les salles du compte à fusionner seront transférées sur la liste des salles du compte principal, puis le compte sera supprimé."
+      footer: "Les salles du compte à fusionner seront transférées sur la liste des salles du compte principal, puis le compte sera 
+supprimé."
   name_update_success: Le nom du salon a été changé avec succès !
   no_user_email_exists: Aucun utilisateur n'existe avec l'e-mail spécifié. Veuillez vérifier que vous l'avez saisi correctement.
   omniauth_error: Une erreur est survenue lors de l'authentification avec omniauth. Veuillez réessayer ou contacter un administrateur !
-  omniauth_specific_error: "%{error} s'est produite lors de l'authentification avec omniauth. Veuillez réessayer ou contacter un administrateur !"
+  omniauth_specific_error: "%{error} s'est produite lors de l'authentification avec omniauth. Veuillez réessayer ou contacter un 
+administrateur !"
   pagy:
     nav:
       prev: "&lsaquo; Précédent"
@@ -449,7 +463,7 @@ fr:
     email: Envoyer l'enregistrement par Email
     error: "Il y a eu une erreur lors de la récupération de %{count}enregistrement(s)"
     no_recordings: "Cette salle n'a pas d'enregistrement%{inject}."
-    no_user_recordings: "Actuellement, vous n'avez  aucun enregistrement."
+    no_user_recordings: "Actuellement, vous n'avez aucun enregistrement."
     no_matched_recordings: "Aucun enregistrement %{inject} ne correspond à votre recherche."
     recorded_on: "Enregistré le %{date}"
     table:
@@ -470,22 +484,27 @@ fr:
       video: Vidéo
   registration:
     approval:
-      fail: "Votre compte n'a pas encore été validé. Si plusieurs jours se sont découlés depuis votre inscription, veuillez contacter votre administrateur."
+      fail: "Votre compte n'a pas encore été validé. Si plusieurs jours se sont découlés depuis votre inscription, veuillez contacter votre 
+administrateur."
       signup: Votre compte a été créé avec succès. Il a été envoyé à un administrateur pour validation.
     banned:
-      fail: "Vous n'avez pas accès à cette application. Si vous pensez qu'il s'agit d'une erreur, veuillez contacter votre administrateur." 
+      fail: "Vous n'avez pas accès à cette application. Si vous pensez qu'il s'agit d'une erreur, veuillez contacter votre administrateur."
     deprecated:
-      new_signin: Veuillez sélectionner une nouvelle méthode de connexion pour votre compte. Toutes les salles de votre ancien compte seront transférées sur le nouveau compte
-      twitter_signin: "La connexion par Twitter est obsolète et va être enlevée de la prochaine version. Veuillez cliquer <a href=\"%{link}\">ici</a> afin de changer la méthode d'authentification de votre compte"
+      new_signin: Veuillez sélectionner une nouvelle méthode de connexion pour votre compte. Toutes les salles de votre ancien compte seront 
+transférées sur le nouveau compte
+      twitter_signin: "La connexion par Twitter est obsolète et va être enlevée de la prochaine version. Veuillez cliquer <a 
+href=\"%{link}\">ici</a> afin de changer la méthode d'authentification de votre compte"
       twitter_signup: L'inscription par Twitter est obsolète. Veuillez utiliser une autre méthode d'inscription
       merge_success: Intégration du compte Twitter avec votre nouveau compte réussie. Votre ancien compte Twitter a été enlevé
     invite:
-      fail: "Votre jeton d'authentification a expiré ou n'est pas valide. Si vous pensez qu'il s'agit d'une erreur, veuillez contacter votre administrateur."
+      fail: "Votre jeton d'authentification a expiré ou n'est pas valide. Si vous pensez qu'il s'agit d'une erreur, veuillez contacter votre 
+administrateur."
       no_invite: Vous n'avez pas d'invitation. Veuillez contacter votre administrateur afin d'en recevoir une.
   remove: Enlever
   rename: Renommer
   reset_password:
-    invalid_token: Le jeton de réinitialisation du mot de passe n'est pas valide. Veuillez essayer de réinitialiser votre mot de passe à nouveau.
+    invalid_token: Le jeton de réinitialisation du mot de passe n'est pas valide. Veuillez essayer de réinitialiser votre mot de passe à 
+nouveau.
     subtitle: Réinitialiser le mot de passe
     password: Nouveau mot de passe
     confirm: Confirmation du nouveau mot de passe
@@ -528,7 +547,8 @@ fr:
     no_sessions: Cette salle n'a pas encore de session !
     recordings: Enregistrements du salon
     room_limit: Vous avez atteint le nombre maximum de salles autorisé
-    room_limit_exceeded: "Vous avez dépassé le nombre de salles autorisé. Veuillez en supprimer %{difference}pour pouvoir accéder à cette salle."
+    room_limit_exceeded: "Vous avez dépassé le nombre de salles autorisé. Veuillez en supprimer %{difference}pour pouvoir accéder à cette 
+salle."
     sessions: Sessions
     settings: Paramètres Salle
     share: "Gérer les accès "
@@ -557,7 +577,8 @@ fr:
       reset_password: Réinitialiser le mot de passe de l'utilisateur
     delete:
       button: "Oui, je souhaiterais supprimer mon compte."
-      disclaimer: "Si vous choisissez de supprimer votre compte, il NE sera <b>PAS</b> récupérable. Toutes les informations concernant votre compte, y compris les paramètres, les salons et les enregistrements seront supprimées."
+      disclaimer: "Si vous choisissez de supprimer votre compte, il NE sera <b>PAS</b> récupérable. Toutes les informations concernant votre 
+compte, y compris les paramètres, les salons et les enregistrements seront supprimées."
       subtitle: Supprimer Définitivement votre Compte
       title: Supprimer Compte
     password:

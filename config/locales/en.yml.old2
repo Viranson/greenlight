@@ -2,20 +2,14 @@
 #
 # Copyright (c) 2018 BigBlueButton Inc. and by respective authors (see below).
 #
-# This program is free software; you can redistribute it and/or modify it under the
-# terms of the GNU Lesser General Public License as published by the Free Software
-# Foundation; either version 3.0 of the License, or (at your option) any later
-# version.
+# This program is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as 
+# published by the Free Software Foundation; either version 3.0 of the License, or (at your option) any later version.
 #
-# BigBlueButton is distributed in the hope that it will be useful, but WITHOUT ANY
-# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-# PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
+# BigBlueButton is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of 
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
 #
-# You should have received a copy of the GNU Lesser General Public License along
-# with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
-
-# Locale.
-
+# You should have received a copy of the GNU Lesser General Public License along with BigBlueButton; if not, see 
+# <http://www.gnu.org/licenses/>. Locale.
 en:
   activerecord:
     attributes:
@@ -83,14 +77,15 @@ en:
         title: Recording Default Visibility
         warning: This setting will only be applied to rooms that aren't running
       require_consent:
-        info: This setting enables a room setting that allows room owners to specify which rooms can be recorded. Users joining a recorded room must consent before joining.
+        info: This setting enables a room setting that allows room owners to specify which rooms can be recorded. Users joining a recorded 
+room must consent before joining.
         title: Require Room Owner and Joiner Consent to Recording
       maintenance_banner:
         info: Displays a Banner to inform the user of a scheduled maintenance
         title: Maintenance Banner
         display: Set
         clear: Clear
-        time: "Example: Update scheduled on December 13 @ 23:00 ET. Users may experience problems signing in."        
+        time: "Example: Update scheduled on December 13 @ 23:00 ET. Users may experience problems signing in."
       preupload:
         info: Users can preupload a presentation to be used as the default presentation for that specific room
         title: Allow Users to Preupload Presentations
@@ -127,7 +122,8 @@ en:
       perm_deleted: User has been permanently deleted
       promoted: User has been successfully promoted
       registration_method_updated: Registration method successfully updated
-      reset_password: The user has been sent an email to reset their password. (Please ask them to check their spam folder if they haven't received it)
+      reset_password: The user has been sent an email to reset their password. (Please ask them to check their spam folder if they haven't 
+received it)
       restored: User has been successfully restored
       room_configuration: Room Configuration successfully changed
       settings: Site Settings successfully changed
@@ -159,15 +155,17 @@ en:
     room_configuration:
       title: Room Configuration
       mute:
-        info: Automatically mutes the user when they join the CERCO Meet meeting
+        info: Automatically mutes the user when they join the BigBlueButton meeting
       require_moderator:
-        info: Prompts the moderator of the CERCO Meet meeting when a user tries to join. If the user is approved, they will be able to join the meeting.
+        info: Prompts the moderator of the BigBlueButton meeting when a user tries to join. If the user is approved, they will be able to 
+join the meeting.
       allow_any:
         info: Allows any user to start the meeting at any time. By default, only the room owner can start the meeting.
       all_moderator:
-        info: Gives all users moderator privileges in CERCO Meet when they join the meeting.
+        info: Gives all users moderator privileges in BigBlueButton when they join the meeting.
       recordings:
-        info: Allows room owners to specify whether they want the option to record a room or not. If enabled, the moderator must still click the "Record" button once the meeting has started.
+        info: Allows room owners to specify whether they want the option to record a room or not. If enabled, the moderator must still click 
+the "Record" button once the meeting has started.
       options:
         disabled: Disabled
         enabled: Always Enabled
@@ -210,7 +208,7 @@ en:
         username: Username
       title: Manage Users
   add_to_google_calendar: "Add to Google Calendar"
-  bigbluebutton: CERCO Meet
+  bigbluebutton: BigBlueButton
   bigbluebutton_exception: Oops, there was an error when starting the meeting!
   cancel: Cancel
   cookies:
@@ -230,7 +228,7 @@ en:
   errors:
     bigbluebutton:
       help: Please make sure the proper steps have been taken. <a href="%{doc_link}">Learn more</a>
-      message: Invalid CERCO Meet Endpoint and Secret
+      message: Invalid BigBlueButton Endpoint and Secret
       title: Server Error
     internal:
       message: Looks like something went wrong on our end.
@@ -243,10 +241,10 @@ en:
       contact_admin: If you are not an administrator, please contact one.
       continue: I'd like to stay using 1.0.
       notice: >
-        Greenlight encountered a database migration error.<br>
-        This may be because you haven't updated to Greenlight 2.0.
+        CERCO Meet encountered a database migration error.<br>
+        This may be because you haven't updated to CERCO Meet 2.0.
       upgrade: Show me how to upgrade to 2.0!
-      version: We've released a new version of Greenlight, but your database isn't compatible.
+      version: We've released a new version of CERCO Meet, but your database isn't compatible.
     messages:
       blank: can't be blank
       too_short: is too short
@@ -257,7 +255,7 @@ en:
       inclusion: is not included in the list
     no_provider:
       message: The site you are trying to access is not enabled
-      help: Please contact your system administrator to setup Greenlight
+      help: Please contact your system administrator to setup CERCO Meet
     not_found:
       message: Sorry! The page you are looking for does not exist.
       help: Is it possible its been removed?
@@ -298,7 +296,8 @@ en:
       signout: Sign out
   home_room: Home Room
   info_update_success: Information successfully updated.
-  invalid_credentials: The email and password you entered did not match our records. Try again or click Forgot Password to reset your password.
+  invalid_credentials: The email and password you entered did not match our records. Try again or click Forgot Password to reset your 
+password.
   invalid_login_method: Login failed due to account mismatch. You need to log in with omniauth.
   invite_message: "To invite someone to the meeting, send them this link:"
   javascript:
@@ -306,16 +305,18 @@ en:
       mailer:
         subject: 'has invited you to view a recording.'
         body: 'To view the recording, follow the link below:'
-        autogenerated: 'This e-mail is auto-generated by CERCO Meet.'
-        footer: 'CERCO Meet is an open source web conferencing system. For more information on CERCO Meet, see https://bigbluebutton.org/.'
+        autogenerated: 'This e-mail is auto-generated by BigBlueButton.'
+        footer: 'BigBlueButton is an open source web conferencing system. For more information on BigBlueButton, see 
+https://bigbluebutton.org/.'
     search:
       start: Start searching...
   landing:
-    about: "CERCO Meet is CERCO Group web conferencing platform. You can create your own rooms to host sessions, or join others using a short and convenient link."
+    about: "%{href} is a web conferencing for CERCO Group. You can create your own rooms to host sessions, or join others using a short and 
+convenient link."
     welcome: Welcome to CERCO Meet.
-#   video: Watch our tutorial on using CERCO Meet
+    video: Watch our tutorial on using CERCO Meet
     upgrade: Show me how to upgrade to 2.0!
-    version: We've released a new version of Greenlight, but your database isn't compatible.
+    version: We've released a new version of CERCO Meet, but your database isn't compatible.
   language_default: Default (browser language)
   ldap_error: Unable to connect to the LDAP server. Please check your LDAP configuration in the env file and ensure your server is running.
   login: Sign in
@@ -348,7 +349,7 @@ en:
           admins_link: Visit the Organization Page
           subject: New CERCO Meet User Sign Up
           username: The user signed up with the name %{name} and the email %{email}.
-        subject: Invitation to join CERCO Meet
+        subject: Invitation to join BigBlueButton
         username: Your username is %{email}.
       password_reset:
         title: 'Password reset'
@@ -447,7 +448,8 @@ en:
       title: Merge User Accounts
       to: Primary Account
       save: Merge
-      footer: The rooms of the account to be merged will be transfered over to the Primary Account's room list and then the account will be deleted.
+      footer: The rooms of the account to be merged will be transfered over to the Primary Account's room list and then the account will be 
+deleted.
   name_update_success: Room name successfully changed!
   no_user_email_exists: There is no existing user with the email specified. Please make sure you typed it correctly.
   omniauth_error: An error occured while authenticating with omniauth. Please try again or contact an administrator!
@@ -502,7 +504,8 @@ en:
       fail: You do not have access to this application. If you believe this is a mistake, please contact your administrator.
     deprecated:
       new_signin: Select a new login method for you account. All your rooms from your old account will be migrated to the new account
-      twitter_signin: Signing in via Twitter has been deprecated and will be removed in the next release. Click <a href="%{link}"> here </a> to move your account to a new authentication method
+      twitter_signin: Signing in via Twitter has been deprecated and will be removed in the next release. Click <a href="%{link}"> here </a> 
+to move your account to a new authentication method
       twitter_signup: Sign up via Twitter has been deprecated. Please use a different sign up method
       merge_success: Successfully merged your twitter account with your new account. Your old twitter account has been deleted
     invite:
@@ -536,7 +539,7 @@ en:
       fail: Failed to delete room (%{error})
     enter_the_access_code: Enter the room's access code
     invalid_provider: You have entered an invalid url. Please check the url and try again.
-    invitation_description: You have been invited to join %{name} using CERCO Meet. To join, click the link above and enter your name.  
+    invitation_description: You have been invited to join %{name} using BigBlueButton. To join, click the link above and enter your name.
     invited: You have been invited to join
     recording_present: I acknowledge that this session is going to be recorded. This may include my voice and video if enabled.
     invite_participants: Invite Participants
@@ -590,7 +593,8 @@ en:
       reset_password: Reset user password
     delete:
       button: Yes, I would like to delete my account.
-      disclaimer: If you choose to delete your account, it will <b>NOT</b> be recoverable. All information regarding your account, including settings, rooms, and recording will be removed.
+      disclaimer: If you choose to delete your account, it will <b>NOT</b> be recoverable. All information regarding your account, including 
+settings, rooms, and recording will be removed.
       subtitle: Permanently Delete your Account
       title: Delete Account
     password:
